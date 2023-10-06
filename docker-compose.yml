@@ -1,0 +1,14 @@
+version: '3'
+services:
+  arma:
+    image: arma
+    volumes:
+      - ./configs:/home/arma/configs
+    ports:
+      - "2001:2001"
+    platform: linux/amd64
+    deploy:
+      resources:
+        limits:
+          cpus: "8"
+          memory: 8G

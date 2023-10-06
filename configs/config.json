@@ -1,0 +1,38 @@
+{
+  "bindAddress": "0.0.0.0",
+  "bindPort": 2001,
+  "publicAddress": "192.168.0.65",
+  "publicPort": 2001,
+  "game": {
+    "name": "Server Name - Mission Name",
+    "password": "",
+    "passwordAdmin": "changeme",
+    "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+    "maxPlayers": 2,
+    "visible": true,
+    "crossPlatform": true,
+    "supportedPlatforms": [
+      "PLATFORM_PC",
+      "PLATFORM_XBL"
+    ],
+    "gameProperties": {
+      "serverMaxViewDistance": 2500,
+      "serverMinGrassDistance": 50,
+      "networkViewDistance": 1000,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": true,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
+      "missionHeader": {
+        "m_iPlayerCount": 40,
+        "m_eEditableGameFlags": 6,
+        "m_eDefaultGameFlags": 6,
+        "other": "values"
+      }
+    }
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true
+  }
+}
