@@ -27,8 +27,4 @@ RUN /usr/games/steamcmd  \
 
 EXPOSE 2001
 
-CMD [
-"./ArmaReforgerServer",
-"-maxFPS", "60",
-"-config", "./configs/config.json"
-]
+CMD ["./ArmaReforgerServer", "-maxFPS", "60", "-config", "./configs/config.json"]
